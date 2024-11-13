@@ -1,3 +1,5 @@
+console.log('checkout-modal.js loaded');
+
 const modalHtml = `
 <div id="myModal" style="display:none;">
     <div class="modal-content">
@@ -9,8 +11,6 @@ const modalHtml = `
 `;
 
 document.body.innerHTML += modalHtml;
-
-console.log('checkout-modal.js loaded');
 
 document.addEventListener('DOMContentLoaded', function() {
     // チェックアウトボタンの要素を監視する
