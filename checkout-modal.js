@@ -10,9 +10,11 @@ const modalHtml = `
 
 document.body.innerHTML += modalHtml;
 
+console.log('checkout-modal.js loaded');
+
 document.addEventListener('DOMContentLoaded', function() {
     // チェックアウトボタンの要素を監視する
-    const payButton = document.querySelector('.checkout-pay-button');
+    const payButton = document.querySelector('.checkout');
 
     if (payButton) {
         payButton.addEventListener('click', function(event) {
