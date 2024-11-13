@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const payButton = document.querySelector('.checkout');
 
     if (payButton) {
+        console.log('checkout');
         payButton.addEventListener('click', function(event) {
             event.preventDefault(); // デフォルトのアクションをキャンセル
 
